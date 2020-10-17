@@ -54,11 +54,11 @@ def garcon_aleat():
 
 
 def end_generation(): 
-
-   # On COMMENCE AVEC UN NOMBRE ALEATOIRE DE PARENTS (PERES)
+   
    nb_garcons = 0
-
-   nb_parents = garcon_aleat()
+   
+   # ON COMMENCE AVEC 2 PARENTS (EXEMPLE - PERES)
+   nb_parents = 2
 
    # ON INITIALISE LE NOMBRE DE GENERATIONS
    nb_generations = 0
