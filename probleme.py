@@ -41,7 +41,7 @@ def garcon_aleat():
    # LE POURCENTAGE D 'AVOIR UN GARCON 
    pourcentage_garcon = 52.5
 
-   # TABLEAU RECENSANT LES ENFANTS
+   # ON RAPPEL LA FONCTION POUR AVOIR LE NOMBRE D'ENFANTS
    enfants = nb_enfant()
 
    # POUR CHAQUE ENFANT VOIR SI C 'EST UN GARCON
@@ -55,7 +55,7 @@ def garcon_aleat():
 
 def end_generation(): 
 
-   # On COMMENCE AVEC 2 PARENTS
+   # On COMMENCE AVEC UN NOMBRE ALEATOIRE DE PARENTS (PERES)
    nb_garcons = 0
 
    nb_parents = garcon_aleat()
@@ -96,3 +96,4 @@ def moyenne_generation():
 # print(end_generation())
 # print(garcon_aleat())
 # print(moyenne_generation())
+# print(nb_enfant())
